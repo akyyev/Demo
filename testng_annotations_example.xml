@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Practice testng annotations">
+
+    <test name="Just one class">
+        <classes>
+            <class name="com.demo.day6_testng.testNG_Annotations.ClassA"/>
+        </classes>
+    </test>
+
+
+    <test name="All classes TestNG Annotations">
+            <classes>
+                <class name="com.demo.day6_testng.testNG_Annotations.ClassA"/>
+                <class name="com.demo.day6_testng.testNG_Annotations.ClassB"/>
+            </classes>
+    </test>
+
+
+</suite>
