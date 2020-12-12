@@ -1,6 +1,5 @@
-package com.demo.day5_collections_framework;
+package com.demo.day05_collections_framework;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Replit_Reverse_Number {

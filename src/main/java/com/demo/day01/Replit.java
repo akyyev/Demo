@@ -1,9 +1,6 @@
-package com.demo.day1;
+package com.demo.day01;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Replit {
 

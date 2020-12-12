@@ -1,10 +1,6 @@
 package com.demo.day3_exceptions;
 
-import com.demo.day1.Teacher;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import com.demo.day01.Teacher;
 
 public class Exceptions_Briefly {
 

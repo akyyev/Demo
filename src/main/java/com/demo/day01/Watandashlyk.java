@@ -1,4 +1,4 @@
-package com.demo.day1;
+package com.demo.day01;
 
 public interface Watandashlyk {
 

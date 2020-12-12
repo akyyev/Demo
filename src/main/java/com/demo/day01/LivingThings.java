@@ -1,7 +1,4 @@
-package com.demo.day1;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.demo.day01;
 
 public abstract class LivingThings {
 

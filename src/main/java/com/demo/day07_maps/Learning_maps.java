@@ -1,4 +1,4 @@
-package com.demo.day7_maps;
+package com.demo.day07_maps;
 
 import java.util.*;
 

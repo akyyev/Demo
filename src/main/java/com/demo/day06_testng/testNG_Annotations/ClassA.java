@@ -1,7 +1,5 @@
-package com.demo.day6_testng.testNG_Annotations;
+package com.demo.day06_testng.testNG_Annotations;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class ClassA extends Base {

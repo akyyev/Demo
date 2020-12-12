@@ -1,4 +1,4 @@
-package com.demo.day4;
+package com.demo.day04;
 
 import java.util.*;
 

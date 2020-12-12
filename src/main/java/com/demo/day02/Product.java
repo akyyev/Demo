@@ -1,6 +1,4 @@
-package com.demo.day2;
-
-import java.io.ObjectInput;
+package com.demo.day02;
 
 public class Product implements Comparable<Product>{
 

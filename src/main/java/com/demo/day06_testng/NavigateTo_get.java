@@ -1,4 +1,4 @@
-package com.demo.day6_testng;
+package com.demo.day06_testng;
 
 import com.demo.utilities.BrowserUtils;
 import com.demo.utilities.Driver;

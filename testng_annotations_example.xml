@@ -4,15 +4,15 @@
 
     <test name="Just one class">
         <classes>
-            <class name="com.demo.day6_testng.testNG_Annotations.ClassA"/>
+            <class name="com.demo.day06_testng.testNG_Annotations.ClassA"/>
         </classes>
     </test>
 
 
     <test name="All classes TestNG Annotations">
             <classes>
-                <class name="com.demo.day6_testng.testNG_Annotations.ClassA"/>
-                <class name="com.demo.day6_testng.testNG_Annotations.ClassB"/>
+                <class name="com.demo.day06_testng.testNG_Annotations.ClassA"/>
+                <class name="com.demo.day06_testng.testNG_Annotations.ClassB"/>
             </classes>
     </test>
 

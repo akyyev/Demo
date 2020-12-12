@@ -1,4 +1,4 @@
-package com.demo.day1;
+package com.demo.day01;
 
 public class Person extends LivingThings implements Watandashlyk, Diller{
 

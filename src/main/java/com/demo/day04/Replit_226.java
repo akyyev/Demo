@@ -1,4 +1,4 @@
-package com.demo.day4;
+package com.demo.day04;
 
 public class Replit_226 {
 

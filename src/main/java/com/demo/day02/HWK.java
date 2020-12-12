@@ -1,4 +1,4 @@
-package com.demo.day2;
+package com.demo.day02;
 
 import java.util.Arrays;
 import java.util.List;
