@@ -53,9 +53,9 @@ class Finalize{
 
 
 
-    @Override
-    public void finalize(){
-        System.out.println("finalize method overridden from object class");
-        System.out.println(10/0);
-    }
+//    @Override
+//    public void finalize(){
+//        System.out.println("finalize method overridden from object class");
+//        System.out.println(10/0);
+//    }
 }
