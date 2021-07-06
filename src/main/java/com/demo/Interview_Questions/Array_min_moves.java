@@ -4,7 +4,18 @@ public class Array_min_moves {
 
 
     public static void main(String[] args) {
-        System.out.println(minMoves(new int[]{123, 000}, new int[]{123, 345}));
+        // How to make to arrays the same by adding or removing numbers in shortest way
+        int numberOfMoves = minMoves(
+                // Here no need to change anything for first numbers,
+                // 1 -> 3 (2)
+                // 0 -> 4 (4)
+                // 0 -> 5 (5)
+                // Result = 2+4+5 = 11
+
+                    new int[]{123, 100},
+                    new int[]{123, 345}
+                );
+        System.out.println(numberOfMoves);
     }
 
     private static int minMoves(int[] arr1, int[] arr2){
