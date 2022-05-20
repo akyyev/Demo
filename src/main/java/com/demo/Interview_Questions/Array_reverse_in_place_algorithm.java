@@ -12,10 +12,7 @@ public class Array_reverse_in_place_algorithm {
 
     /* Utility function to print an array */
     public static void printArray(int []arr) {
-        int size = arr.length;
-        for (int i = 0; i < size; i++)
-            System.out.print(arr[i] + " ");
-
+        for (int each : arr) System.out.print(each + " ");
         System.out.println("");
     }
 

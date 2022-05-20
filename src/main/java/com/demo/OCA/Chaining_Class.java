@@ -63,11 +63,29 @@ public class Chaining_Class {
     }
 
     public static void main(String[] args) {
+        // this is one way of chaining
         Chaining_Class c = new Chaining_Class()
                                                 .setAge(15)
                                                 .setGpa('A')
                                                 .setName("Bob")
                                                 .setWeight(55.5);
+        // another way is using lombok library @Builder annotation
+        /*
+            @Getter
+            @Builder
+            public class Widget {
+                private final String name;
+                private final int id;
+            }
+
+            Widget testWidget = Widget.builder()
+                                  .name("foo")
+                                  .id(1)
+                                  .build();
+
+            assertThat(testWidget.getName())
+              .isEqualTo("foo");
+         */
 
         System.out.println(c);
     }

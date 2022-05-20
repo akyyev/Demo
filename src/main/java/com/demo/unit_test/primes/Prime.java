@@ -6,7 +6,7 @@ import java.util.List;
 public class Prime {
 
     /**
-     * @param primeNumber
+     * @param primeNumber takes a prime number
      * @return  if input is invalid returns -1, otherwise index of given prime
      */
     private static int getIndexOfPrimeNumber(int primeNumber){

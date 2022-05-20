@@ -1,6 +1,6 @@
 package com.demo.day01;
 
-public class Person extends LivingThings implements Watandashlyk, Diller{
+public class Person extends LivingThings implements Watandashlyk, Diller {
 
     //1. attributes
     // => instance variables -->  name, age, isStudent, ... (NOT SHARED)
@@ -117,8 +117,8 @@ public class Person extends LivingThings implements Watandashlyk, Diller{
         System.out.println(Person.counter); //4
 
 
-        int a =5;
-        int b=5;
+        int a = 5;
+        int b = 5;
 
 
         String s1  = "beza";

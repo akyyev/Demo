@@ -4,7 +4,7 @@ public class Array_min_moves {
 
 
     public static void main(String[] args) {
-        // How to make to arrays the same by adding or removing numbers in shortest way
+        // How to make two Arrays the same by adding or removing numbers in the shortest way
         int numberOfMoves = minMoves(
                 // Here no need to change anything for first numbers,
                 // 1 -> 3 (2)
@@ -21,7 +21,7 @@ public class Array_min_moves {
     private static int minMoves(int[] arr1, int[] arr2){
         int count = 0;
 
-        if(arr1.length!=arr2.length)
+        if(arr1.length != arr2.length)
             throw new RuntimeException("Different length of arrays has been passed!");
 
         for(int i=0; i<arr1.length; i++){

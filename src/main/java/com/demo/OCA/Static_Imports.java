@@ -1,6 +1,6 @@
 package com.demo.OCA;
 
-import I.love.Java.Language.AreYou;
+import I.love.Java.Language.DoYou;
 
 import static java.util.Arrays.asList; // without ()
 import static com.demo.OCA.Varargs.method;
@@ -15,7 +15,7 @@ public class Static_Imports {
 
         StringBuilder s = new StringBuilder(new StringBuilder("a"));
 
-        AreYou.main(new String[0]);
+        DoYou.main(new String[0]);
 
         E e= new E();
         System.out.println(e.m1(2));
