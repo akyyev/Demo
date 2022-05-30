@@ -6,7 +6,7 @@ public class Comparable_Comparator_Interfaces {
 
     /**
      * if sorting of objects needs to be based on natural order then use Comparable
-     * whereas if you sorting needs to be done on attributes of different objects,
+     * whereas if your sorting needs to be done on attributes of different objects,
      * then use Comparator in Java.
      */
 
@@ -34,12 +34,12 @@ public class Comparable_Comparator_Interfaces {
 //        }
 
         System.out.println("\n---------age sort using Comparator interface---------");
-        Collections.sort(people, new CompareAccordingToAge());
+        people.sort(new CompareAccordingToAge());
         people.forEach(System.out::println);
 
 
         System.out.println("\n---------weight sort using Comparator interface---------");
-        Collections.sort(people, new CompareAccordingToWeight());
+        people.sort(new CompareAccordingToWeight());
         people.forEach(System.out::println);
 
     }
@@ -94,8 +94,8 @@ class Person implements Comparable<Person>{
 
     /**
      * Compares according to names of people
-     * @param
-     * @return
+     * @param p person object
+     * @return int
      */
     @Override
     public int compareTo(Person p) {
@@ -110,15 +110,17 @@ class Person implements Comparable<Person>{
 class CompareAccordingToAge implements Comparator<Person> {
 
     @Override
-    public int compare(Person o1, Person o2) {
-        return o1.getAge()-o2.getAge()>0? 1:-1;
+    public int compare(Person p1, Person p2) {
+        if(p1.getAge() == p2.getAge()) return 0;
+        return p1.getAge()-p2.getAge()>0? 1:-1;
     }
 }
 
 class CompareAccordingToWeight implements Comparator<Person> {
 
     @Override
-    public int compare(Person o1, Person o2) {
-        return o1.getWeight()-o2.getWeight()>0 ? 1: -1;
+    public int compare(Person p1, Person p2) {
+        if(p1.getWeight() == p2.getWeight()) return 0;
+        return p1.getWeight()-p2.getWeight()>0? 1:-1;
     }
 }
