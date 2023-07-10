@@ -15,7 +15,7 @@ public class BrowserUtils {
 
     public static void wait(int seconds) {
         try{
-            Thread.sleep(1000*seconds);
+            Thread.sleep(1000L *seconds);
         } catch (InterruptedException e){
             e.printStackTrace();
         }
@@ -25,7 +25,7 @@ public class BrowserUtils {
      * Waits for element to be not stale
      * StaleElementReferenceException --> Indicates that a reference to an element is now "stale"
      * --- the element no longer appears on the DOM of the page.
-     * @param element
+     * @param element WebElement
      */
     public static void waitForStaleElement(WebElement element){
         int y=0;
