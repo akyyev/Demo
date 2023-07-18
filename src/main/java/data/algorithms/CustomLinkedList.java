@@ -76,10 +76,7 @@ public class CustomLinkedList<T> {
                 current = current.next;
             }
         }
-        if (index==size) {
-            return -1;
-        }
-        return index;
+        return -1;
     }
 
     boolean contains(T element) {
@@ -113,5 +110,13 @@ public class CustomLinkedList<T> {
         }
 
         return false;
+    }
+
+    // TODO
+    T getKthFromLast(int k) {
+
+
+
+        return null;
     }
 }
