@@ -25,6 +25,7 @@ public class TestApp {
         System.out.println("-----------------------------------------");
         var otherLinkedList = new CustomLinkedList<String>();
         otherLinkedList.addAll(List.of("Some", "One", "Is", "Learning", "Algorithms"));
+
         System.out.println("otherLinkedList.indexOf(\"Learning\") = " + otherLinkedList.indexOf("Learning")); // 3
         System.out.println("otherLinkedList.indexOf(\"Algorithms\") = " + otherLinkedList.indexOf("Algorithms")); // 4
         System.out.println("otherLinkedList.indexOf(\"Invalid\") = " + otherLinkedList.indexOf("Invalid"));  // -1
@@ -37,6 +38,18 @@ public class TestApp {
 
         otherLinkedList.printAll();
         System.out.println("isDeleted = " + isDeleted);
+
+        System.out.println("-----------------------------------------");
+        var other = new CustomLinkedList<String>();
+        other.addAll(List.of("A", "B", "C", "D", "E", "F")); // k=3
+
+        other.printAll();
+
+
+        System.out.println("other.getKthElementFromLast(3) = " + other.getKthElementFromLast(3));
+        System.out.println("-----------------------------------------");
+        other.removeKthElementFromLast(6);
+        other.printAll();
     }
 }
 
