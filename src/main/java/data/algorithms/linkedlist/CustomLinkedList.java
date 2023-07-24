@@ -1,4 +1,4 @@
-package data.algorithms;
+package data.algorithms.linkedlist;
 
 import java.util.List;
 
