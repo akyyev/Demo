@@ -1,0 +1,15 @@
+
+Recursion
+    - Calling the method inside the same method
+    - Fibonacci, factorial and many more functions can be written easily
+
+    Why?
+        - Anything than can be done with recursion can be done iteratively (with loop)
+        - Recursion is clever, readable and shortly but costly in terms of space complexity
+        - When it comes to problems like sorting and tree traversal we can use recursive solutions to make things simple
+          Particularly
+            - Merge Sort
+            - Quick Sort
+            - Tree Traversal
+            - Graph Traversal
+

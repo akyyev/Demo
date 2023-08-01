@@ -9,7 +9,7 @@ public class CustomStack<T> {
 
     static class SNode<T> {
         T value;
-        SNode next;
+        SNode<T> next;
 
         public SNode(T value) {
             this.value = value;
