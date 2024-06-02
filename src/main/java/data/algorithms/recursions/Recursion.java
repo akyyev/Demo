@@ -12,12 +12,11 @@ public class Recursion {
         // Fibs : 0, 1, 1, 2, 3, 5, 8, 13, ...
         // f(n) = f(n-1)+f(n-2)
         // base condition to terminate recursive calls
-        if(cache.containsKey(order)) return cache.get(order);
+       if(cache.containsKey(order)) return cache.get(order);
 
         if(order==0) return 0;
         if(order==1) return 1;
         int result = getFib(order-1) + getFib(order-2);
-        System.out.println("00001222222222");
         cache.put(order, result);
         return result;
     }
@@ -31,7 +30,7 @@ public class Recursion {
 
 class TestApp {
     public static void main(String[] args) {
-        System.out.println("Recursion.getFib(6) = " + new Recursion().getFib(6)); // 8
+        System.out.println("Recursion.getFib(1000) = " + new Recursion().getFib(1000)); // 1556111435 with memoization using HashMap
         System.out.println("Recursion.getFactorial(5) = " + Recursion.getFactorial(5)); // 120
     }
 }
