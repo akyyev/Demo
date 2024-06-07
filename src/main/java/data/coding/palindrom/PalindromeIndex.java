@@ -3,7 +3,7 @@ package data.coding.palindrom;
 public class PalindromeIndex {
     
     public static void main(String[] args) {
-        String s = "aaab";
+        String s = "bcbc";
         int index = Palindrom.palindromeIndex(s); // O(n) solution
         System.out.println(index); // Output: 3
     }
