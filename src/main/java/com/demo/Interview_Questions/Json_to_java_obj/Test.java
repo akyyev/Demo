@@ -41,7 +41,7 @@ public class Test {
 
     }
 
-    public static Object jsonFileToPOJO(String path, Class c){
+    public static Object jsonFileToPOJO(String path, @SuppressWarnings("rawtypes") Class c){
         try {
             FileReader fileReader = new FileReader(path);
             JsonReader jsonReader = new JsonReader(fileReader);

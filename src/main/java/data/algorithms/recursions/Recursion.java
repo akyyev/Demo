@@ -31,7 +31,7 @@ public class Recursion {
 
 class TestApp {
     public static void main(String[] args) {
-        System.out.println("Recursion.getFib(50) = " + new Recursion().getFib(50)); // 12586269025 with memoization using HashMap
+        System.out.println("Recursion.getFib(50) = " + new Recursion().getFib(60)); // 12586269025 with memoization using HashMap
         System.out.println("Recursion.getFactorial(5) = " + Recursion.getFactorial(5)); // 120
     }
 }

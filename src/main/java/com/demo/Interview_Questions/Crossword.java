@@ -30,7 +30,7 @@ public class Crossword {
 }
 
 
-class CrossWord {
+class CrossWord2 {
     static final int SIZE = 10;
     static final int[] R_OFFSETS = { 0, 1 };
     static final int[] C_OFFSETS = { 1, 0 };

@@ -1,7 +1,5 @@
 package data.coding.twoSum;
 
-import org.testng.annotations.Test;
-
 import java.util.Arrays;
 import java.util.HashMap;
 

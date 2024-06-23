@@ -3,7 +3,6 @@ package com.demo.Interview_Questions;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
-import java.util.List;
 
 public class Task_12_remove_element_from_list {
 

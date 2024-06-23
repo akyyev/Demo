@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Inventory {
 
-    private Map<Item, Integer> inventory = new HashMap();
+    private Map<Item, Integer> inventory = new HashMap<>();
 
     // getQuantity, add, deduct, hasItem, clear, put
 

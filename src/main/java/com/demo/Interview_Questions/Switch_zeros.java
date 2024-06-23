@@ -1,8 +1,5 @@
 package com.demo.Interview_Questions;
 
-import com.demo.OCA.Search_Sample;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -10,7 +7,6 @@ public class Switch_zeros {
 
     int age;
     protected String name;
-    private boolean isOld;
     public byte zeroOrOne;
 
 
