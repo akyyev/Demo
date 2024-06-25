@@ -65,6 +65,20 @@ public class CustomLinkedList<T> {
         }
     }
 
+    void reverseLinkedList() {
+        Node<T> curr = head;
+        Node<T> prev = null;
+        Node<T> next = null;
+
+        while(curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
+
     int indexOf(T element) {
         var current = head;
         var index = 0;

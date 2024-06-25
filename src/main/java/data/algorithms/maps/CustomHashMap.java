@@ -11,6 +11,7 @@ public class CustomHashMap<K, V> {
     private Entry<K, V>[] table;
     private final int capacity = 5;
 
+    @SuppressWarnings("unchecked")
     public CustomHashMap() {
         table = new Entry[capacity];
     }

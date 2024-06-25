@@ -13,7 +13,6 @@ public class CustomQueue<T> {
     // Lets create Custom Queue using Linked List
     private static class QNode<T> {
         T value;
-        QNode<T> node;
         QNode<T> next;
 
         QNode(T value) {

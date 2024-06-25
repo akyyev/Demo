@@ -14,6 +14,11 @@ public class TestApp {
         linkedList.addAll(List.of(new Student("1", "00"), new Student("2", "00")));
         linkedList.addElementToBeginning(new Student("#1", "00"));
         linkedList.printAll();
+
+        System.out.println("----reversed now-----");
+        linkedList.reverseLinkedList();
+        linkedList.printAll();
+
         System.out.println("linkedList.getSize() = " + linkedList.getSize());
 
         System.out.println("linkedList.indexOf(new Student(\"Second\", \"Done\")) = "
