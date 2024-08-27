@@ -1,7 +1,6 @@
 package com.demo.Interview_Questions;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -10,6 +9,7 @@ public class Vonage_Num_Siblings {
 
     public static void main(String[] args) {
         int res = getLargestSibling(24130);
+        System.out.println(res);
     }
 
     private static int getLargestSibling(int num){
