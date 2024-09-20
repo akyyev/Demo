@@ -8,6 +8,10 @@ public class MinIntHeap {
 
     int[] items = new int[capacity];
 
+    public int size() {
+        return size;
+    }
+
     private int getLeftChildIndex(int parentIndex) {
         return 2 * parentIndex + 1;
     }
@@ -138,5 +142,25 @@ class TestMinHeap {
             remove --> to get and remove the min/max. O(log n)
             peek --> to get, but not remove the min/max. O(1)
          */
+
+        // Find kth largest element in an array
+        // Can be solved using priority queue or our custom MinIntHeap class
+        int[] arr = {500, 10, 3, 6, 7, 9, 1};
+        System.out.println("--------------------");
+        System.out.println();
+        System.out.println("1st largest" + findKthLargest(arr, 1));
+        System.out.println("2nd largest" + findKthLargest(arr, 2));
+        System.out.println("3rd largest" + findKthLargest(arr, 3));
+    }
+
+
+    public static int findKthLargest(int[] arr, int k) {
+        var minHeap = new MinIntHeap();
+
+        for(var num: arr) {
+            minHeap.add(num);
+            if(minHeap.size() > k) minHeap.poll();
+        }
+        return minHeap.peek();
     }
 }
