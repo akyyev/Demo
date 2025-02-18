@@ -3,3 +3,6 @@
 out
 target
 test-output
+.vscode
+.idea
+.vscode/*
