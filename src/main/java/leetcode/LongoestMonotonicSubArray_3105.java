@@ -1,10 +1,14 @@
 package leetcode;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class LongoestMonotonicSubArray_3105 {
     public static void main(String[] args) {
         LongoestMonotonicSubArray_3105 obj = new LongoestMonotonicSubArray_3105();
         int[] nums = {2,1,10};
-        System.out.println(obj.longestMonotonicSubArray(nums));
+
+        log.info("{} >>>> {}", nums, obj.longestMonotonicSubArray(nums));
     }
 
     public int longestMonotonicSubArray(int[] nums) {
